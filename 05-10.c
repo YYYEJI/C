@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int bingo[5][5] = {0,};        // 5*5 매트릭스
+    int bingo[5][5] = {0,};       // 5*5 매트릭스
     int num;
 
     do{
