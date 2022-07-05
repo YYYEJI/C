@@ -4,7 +4,7 @@ float findMAx(float num[], int size);
 float findMin(float num[], int size);
 
 int main(){
-    float num[10] = {0,};
+    float num[10] = {0, };
     float max, min, sum, avg;
     FILE* file;
 
