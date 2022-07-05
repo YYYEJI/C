@@ -4,8 +4,8 @@ int maxOfTen(int number[10]);
 int minOfTen(int number[10]);
 
 int main(){
-    int num[10];       // 10개의 숫자를 받을 배열
-    int i;             // 반복문을 위한 변수
+    int num[10];          // 10개의 숫자를 받을 배열
+    int i;                // 반복문을 위한 변수
 
     for(i = 0; i<10; i++){
         printf("%d번째 숫자를 입력하시오. ", i+1);
