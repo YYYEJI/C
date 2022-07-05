@@ -4,12 +4,12 @@ void askHW(float* h, float* w);
 int a = 1;
 
 int main(void){
-    float height, weight, bmi;
+    float height, weight, bmi; 
     int count = 0;
     for(int i = 0; i<5; i++){
         askHW(&height, &weight);
         bmi = weight/((height*0.01)*(height*0.01));
-        if(bmi>25) count++;
+        if (bmi>25) count++;
     }
     printf("비만인 사람은 %d명입니다.\n", count);
     return 0;
