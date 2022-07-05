@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 int main(void) {
-    int size;         // 중간 중간에 들어갈 줄
-    int i, j;         // 반복문 사용을 위한 변수
+    int size;          // 중간 중간에 들어갈 줄
+    int i, j;          // 반복문 사용을 위한 변수
 
     printf("size? > ");
     scanf("%d", &size);
