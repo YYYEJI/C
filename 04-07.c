@@ -12,9 +12,9 @@ int main(void) {
     scanf("%d", &blank);
 
     for(i = 0; i<height ;i++){
-        for(j = 0; j<blank-2; j++) printf(" ");
-        if (height!=7) for(j = 0; j <height-i+1; j++) printf(" ");
-        else for(j = 0; j <height-i; j++) printf(" ");
+        for(j = 0; j<blank-2 ; j++) printf(" ");
+        if (height!=7) for(j = 0; j <height-i+1 ; j++) printf(" ");
+        else for(j = 0; j < height-i ; j++) printf(" ");
         for(j = 0; j <= i; j++) printf("*");
         printf("\n");
     }
