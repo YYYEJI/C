@@ -19,8 +19,7 @@ int main(void) {
             }
             printf("\n");
         }
-    }
-    else{
+    } else {
         for (i = 1; i<5 ; i++){
             for(j = 1; j<=9;j++){        
                 printf("%d X %d = %2d  ", 2*i,j, (2*i)*j);
