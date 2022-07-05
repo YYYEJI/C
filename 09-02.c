@@ -3,9 +3,9 @@
 void maxMinOfTen(int number[10], int* max, int* min);
 
 int main (){
-    int num[10];       // 10개의 숫자를 받을 배열
-    int max_num;       // 가장 큰 숫자를 리턴 받을 변수
-    int min_num;       // 가장 작은 숫자를 리턴 받을 변수
+    int num[10];        // 10개의 숫자를 받을 배열
+    int max_num;        // 가장 큰 숫자를 리턴 받을 변수
+    int min_num;        // 가장 작은 숫자를 리턴 받을 변수
     for(int i = 0; i<10; i++){
         printf("%d번째 숫자를 입력하시오. ", i+1);
         scanf("%d", &num[i]);
