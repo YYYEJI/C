@@ -1,7 +1,6 @@
 // 사용자 ID/PW 저장하기
 #include <stdio.h>
 #include <string.h>
-
 int main(){
     FILE* file;
     char Id[10];
