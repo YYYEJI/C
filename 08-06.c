@@ -1,7 +1,6 @@
 // 빈칸과 함께 특정 문자를 개수만큼 찍는 함수 만들기  
 #include <stdio.h>
 void PrintCharWithBlank(int blanks, int size, char ch);
-
 int main(){
     int height;
     int blank;
