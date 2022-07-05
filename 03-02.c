@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main(void) {
-    int height, weight;     // 신장(cm), 체중(kg)
-    float bmi;              // 비만도 수치
-    int people;             // 비만인 사람의 수
+    int height, weight;      // 신장(cm), 체중(kg)
+    float bmi;               // 비만도 수치
+    int people;              // 비만인 사람의 수
     int i;
 
     for(i = 0; i < 5; i++){
