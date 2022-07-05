@@ -27,6 +27,6 @@ int whichFirst(char* str1, char* str2){
     if((int)*str2>=97) *str2 = (int)*str2 - 32;     
     if((int)*str1<(int)*str2) return 1;
     else if((int)*str1>(int)*str2)return 2;
-    else return 3;        
+    else return -1;        
 }
 
