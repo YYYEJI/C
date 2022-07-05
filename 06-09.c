@@ -22,19 +22,10 @@ int main(void) {
         else continue;
         j++;
     }
-    //  printf("%s\n", onlyalpha);   // 확인용
     j = 0;
     for(i = strlen(onlyalpha)-1; i>=0; i--){
         convert[j++] = onlyalpha[i];
     }
-    // printf("%s\n", convert);       //확인용
-   
- /* 공백 없을 때 사용 가능
-    for(i = 0; i<strlen(input); i++){
-        if((int)input[strlen(input)-i-1]>=97 && (int)input[strlen(input)-i-1]<=122 ){   // 아스키코드 97~122 사이의 숫자라면
-            convert[i] = input[strlen(input)-i-1];            // Input의 마지막 알파벳부터 convert에 넣어준다.
-        }
-    } */
     
     if(strcmp(onlyalpha, convert)==0) printf("Palindrome!");       // 받은 문자와 바뀐 문자가 같다면 Palindrome! 출력
     else printf("Not Palindrome!");                                 // 받은 문자와 바뀐 문자가 다르다면 Not Palindrome! 출력
