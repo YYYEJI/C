@@ -12,7 +12,6 @@ int main(void) {
         printf("%d번째 사람의 신장과 체중? ",i+1);
         scanf("%d %d", &height[i], &weight[i]);
     }
-
     for (i = 0; i<10; i++){
         bmi[i] = weight[i] / pow(height[i] * 0.01, 2);
     
